@@ -1,0 +1,130 @@
+/* *{
+    padding: 0 !important;
+    margin: 0 !important;
+} */
+.sign:hover{
+    background-color: gray;
+    transition: all 0.3s;
+}
+.favourite{
+    background-color: #0F3268;
+    color: white;
+}
+.fav{
+    position: absolute;
+    top: 40px;
+    left: -28px;
+    width: max-content;
+    transition: all 0.7s;
+    padding: 15px;
+    /* transform: scale(0); */
+}
+.fav {
+    /* display: inline-block; */
+    transform: scale(0);
+    transition: transform 0.3s ease;
+  }
+  .gift{
+left: -5px;
+    transform: scale(0);
+    transition: transform 0.3s ease;
+  }
+  .basket{
+  /* transform: translateY(45px); */
+  transition: transform 0.3s ease;
+  transform: scale(0);
+  position: absolute;
+  right: -6px;
+
+  }
+  
+  .fav-show {
+    transform: scale(1);
+  }
+  
+.bi-heart{
+    padding: 5px;
+    position: absolute;
+}
+.bi-basket2{
+    padding: 5px;
+}
+.bi-gift{
+    padding: 5px;
+}
+.bi-heart:hover{
+background-color: aqua;
+clip-path: circle();
+}
+.bi-gift:hover{
+background-color: aqua;
+clip-path: circle();
+}
+.bi-basket2:hover{
+background-color: aqua;
+clip-path: circle();
+}
+.bi-search{
+    background-color: rgb(232, 90, 8);
+    padding: 5px;
+    clip-path: circle();
+}
+.my-img:hover{
+    border: 1px solid lightgray;
+    transition: all 0.3s;
+    transform: scale(1.1);
+}
+.my-image{
+    border-radius: 20px;
+    padding: 10px;
+}
+.my-image:hover{
+    border: 1px solid lightgray;
+    transition: all 0.3s;
+    box-shadow: 5px 5px 5px lightgray ;
+    /* transform: scale(1.1); */
+}
+.sales:hover{
+ box-shadow: 5px 5px 5px lightgray;
+ border-radius: 20px;
+ border: 1px solid lightgray;
+}
+.my-card:hover{
+transform: scale(1.1);
+transition: all 0.3s;
+}
+.etsy{
+    inset: 0;
+    margin: auto;
+}
+.test{
+    position: absolute;
+
+}
+
+
+
+
+
+
+
+@media (max-width: 995px) {
+    .registory{
+        display: none;
+    }
+    .category{
+        display:  none;
+    }
+    .order1{
+        order: 1;
+    }
+    .order2{
+        order: 2;
+    }
+    .order3{
+        order: 3;
+    }
+    .my-col{
+padding: 50px !important;
+    }
+}
